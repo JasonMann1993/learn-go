@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  bubble_app:
+    build: .
+    ports:
+      - "8888:8888"
